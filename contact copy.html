@@ -100,79 +100,45 @@
         </div>
       </div>
     </header>
-    <!-- end header -->
-    <section id="featured">
-      <!-- start slider -->
-      <section class="fondo">
-        <div class="containers">
-          <div class="boxs">
-            <div class="container1">
-              <img class="c2"  src="img/airports.svg" alt="" >
-              <img src="" alt="">
-              <h6>Asset Management services</h6>
-            </div>
-            <a href="asset-management-services.html">
-              <img src="img/MicrosoftTeams-image (2).png">
-              <div class="content-overlay"></div>
-              <div class="content-details">
-                <img class="c3"  src="img/airports.svg" alt="" >
-                <h2>Asset management services</h2><hr>
-                <div class="container">
-                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit unde impedit minus eos ullam ab, neque eveniet possimus doloribus reiciendis in delectus fugiat quos officia tempora,Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit unde impedit minus eos ullam ab, neque eveniet possimus doloribus reiciendis in delectus fugiat quos officia tempora</h4>
+
+    <section id="content">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.1421225529184!2d-74.05964437084862!3d4.670748536439294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af403413b3d%3A0x7c18d280ff1ffa2f!2sAIRCRAFT%20DIGITAL!5e0!3m2!1sen!2sco!4v1660848122381!5m2!1sen!2sco" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h4>Get in touch with us by filling <strong>contact form below</strong></h4>
+
+            <form action="" method="post" role="form" class="contactForm">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+
+              <div class="row">
+                <div class="span4 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
                 </div>
-              </div></a>
-          </div>
-          <div class="boxs">
-            <div class="container1">
-              <img class="c2"  src="img/engineering.svg" alt="" >
-              <h6>Engineering services</h6>
-            </div>
-            <a href="asset-management-services.html">
-              <img src="img/MicrosoftTeams-image (4).png">
-              <div class="content-overlay"></div>
-              <div class="content-details">
-                <img class="c3"  src="img/engineering.svg" alt="" >
-                <h2>Engineering services</h2><hr>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit unde impedit minus eos ullam ab, neque eveniet possimus doloribus reiciendis in delectus fugiat quos officia tempora </h3>
-              </div></a>
-          </div>
-          <div class="boxs">
-            <div class="container1">
-              <img class="c2"  src="img/browse.svg" alt="" >
-              <h6>Development</h6>
-            </div>
-            <a href="development.html">
-              <img src="img/MicrosoftTeams-image.png">
-              <div class="content-overlay"></div>
-              <div class="content-details">
-                <img class="c3"  src="img/browse.svg" alt="" >
-                <h2>Development</h2><hr>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dignissimos expedita in quaerat, sapiente ad velit quo. Minus, dolores? Natus quam neque nam enim obcaecati sunt impedit corrupti earum accusamus?</h3>
-              </div></a>
-          </div>
-          <div class="boxs">
-            <div class="container1">
-              <img class="c2"  src="img/business.svg" alt="" >
-              <h6>Consultancy</h6>
-            </div>
-            <a href="consultancy.html">
-            <img src="img/MicrosoftTeams-image (3).png" alt="">
-            <div class="content-overlay"></div>
-            <div class="content-details">
-              <img class="c3"  src="img/business.svg" alt="" >
-              <h2>Consultancy</h2><hr>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde at velit modi laborum rerum, assumenda voluptate nemo distinctio a itaque neque fuga culpa autem maxime ipsam laudantium soluta quisquam nostrum!</h3>
-            </div></a>
+                <div class="span4 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="span4 form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="span12 margintop10 form-group">
+                  <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                  <p class="text-center">
+                    <button class="btn btn-large btn-theme margintop10" type="submit">Submit message</button>
+                  </p>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-      </section>
-
-      <section>
-        <!--<div class="container1">
-          <i class="c2 icon-flight" ></i>
-          <h4>Asset Management</h4>
-        </div>-->
-      </section>
+      </div>
+    </section>
     <footer style="padding-top: 36px;">
       <div class="container" style="height: 200px;">
         <div class="row">
@@ -180,7 +146,7 @@
             <div class="widget">
               <h5 class="widgetheading"> <strong> Aircraft Digital </strong> Company</h5>
               <ul class="link-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
@@ -220,7 +186,10 @@
       </div>
       
     </footer>
-  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
   <script src="js/jquery.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/bootstrap.js"></script>
@@ -237,7 +206,12 @@
   <script src="js/jquery.slitslider.js"></script>
   <script src="js/animate.js"></script>
 
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom JavaScript File -->
   <script src="js/custom.js"></script>
 
 </body>
+
 </html>

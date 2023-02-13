@@ -4884,6 +4884,7 @@
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    flex: 1;
   }
   
   .card > hr {
